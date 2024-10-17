@@ -7,12 +7,15 @@ Original file is located at
     https://colab.research.google.com/drive/1X-l0n9UfD6BfN9-nwG2ZU260_BoFYxxI
 """
 
+import math
 # ... (Fonctions addition, soustraction, multiplication, division comme dans le document)
 
 a = float(input("Entrez le premier nombre : "))
 b = float(input("Entrez le deuxième nombre : "))
 operation = input("Entrez l'opération (+, -, *, /): ")
 print(f"Historique: {a} {operation} {b}") # Nouvelle ligne
+def sinus(x):
+  return math.sin(x)
 
 # ... (Logique pour effectuer l'opération et gérer les erreurs comme dans le document)
 
