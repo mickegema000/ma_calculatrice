@@ -7,8 +7,13 @@ Original file is located at
     https://colab.research.google.com/drive/1X-l0n9UfD6BfN9-nwG2ZU260_BoFYxxI
 """
 
-def addition(a, b):
-    return a + b
+# ... (Fonctions addition, soustraction, multiplication, division comme dans le document)
 
-resultat = addition(5, 3)
+a = float(input("Entrez le premier nombre : "))
+b = float(input("Entrez le deuxième nombre : "))
+operation = input("Entrez l'opération (+, -, *, /): ")
+print(f"Historique: {a} {operation} {b}") # Nouvelle ligne
+
+# ... (Logique pour effectuer l'opération et gérer les erreurs comme dans le document)
+
 print(f"Le résultat est : {resultat}")
